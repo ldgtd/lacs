@@ -1,0 +1,17 @@
+/*----------------------------------------*\
+  CONTACT
+\*----------------------------------------*/
+
+.contact {}
+  .contact__title,
+  .contact__link {
+    color: $alt-white;
+  }
+
+  .contact__link {
+    text-decoration: underline;
+
+    &:hover {
+      color: $alt-white;
+    }
+  }

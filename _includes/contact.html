@@ -1,0 +1,29 @@
+<section id="contact" class="contact section">
+  <h2 class="mrgt0">{{ t.contact.title }}</h2>
+  <div class="grid grid--multiline">
+    <div class="grid__item md-w-1/2">
+      <div class="box box--primary">
+        <address>
+          <h3 class="contact__title mrgt0">{{ t.contact.city1 }}</h3>
+          {{ t.contact.address1 }}
+        </address>
+        <a href="mailto:{{ t.contact.email1 }}" class="contact__link">{{ t.contact.email1 }}</a> <br>
+        <a href="phone:{{ t.contact.phone1 }}" class="contact__link">{{ t.contact.phone1 }}</a> <br>
+
+        <a href="{{ t.contact.map1 }}" target="_blank" class="btn btn--default btn--block text-uppercase mrgt">{{ t.contact.map-button }}</a>
+      </div>
+    </div>
+    <div class="grid__item md-w-1/2">
+      <div class="box box--primary">
+        <address>
+          <h3 class="contact__title mrgt0">{{ t.contact.city2 }}</h3>
+          {{ t.contact.address2 }}
+        </address>
+        <a href="mailto:{{ t.contact.email2 }}" class="contact__link">{{ t.contact.email2 }}</a> <br>
+        <a href="phone:{{ t.contact.phone2 }}" class="contact__link">{{ t.contact.phone2 }}</a> <br>
+
+        <a href="{{ t.contact.map2 }}" target="_blank" class="btn btn--default btn--block text-uppercase mrgt">{{ t.contact.map-button }}</a>
+      </div>
+    </div>
+  </div>
+</section>

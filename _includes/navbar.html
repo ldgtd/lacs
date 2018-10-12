@@ -1,0 +1,49 @@
+ <div class="navbar-wrapper">
+  <header class="navbar navbar--desktop">
+    <div class="container">
+      <div class="navbar__start">
+        <a href="#">
+          <img src="{{ "/assets/images/logo.svg" | prepend: site.baseurl }}" class="navbar__logo">
+        </a>
+      </div>
+      <div class="navbar__end">
+        <div class="navbar__langage">
+          <a href="/fr" class="navbar__langage__link link-fr">FR</a>
+          <a href="/de" class="navbar__langage__link link-de">DE</a>
+        </div>
+        <ul class="nav">
+          <li><a href="#about" class="nav__link">{{ t.navbar.about }}</a></li>
+          <li><a href="#services" class="nav__link">{{ t.navbar.services }}</a></li>
+          <li><a href="#" class="nav__link">{{ t.navbar.contact }}</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <header class="navbar navbar--mobile">
+    <div id="collapse-container-nav" class="navbar__collapse collapse">
+      <div class="box box--primary pdgt+">
+        <ul class="nav">
+          <li class="text-center"><a href="#about" class="nav__link">{{ t.navbar.about }}</a></li>
+          <li class="text-center"><a href="#services" class="nav__link">{{ t.navbar.services }}</a></li>
+          <li class="text-center"><a href="#" class="nav__link">{{ t.navbar.contact }}</a></li>
+        </ul>
+        <hr>
+        <ul class="nav">
+          <li class="text-center"><a href="/fr" class="nav__link">Français</a></li>
+          <li class="text-center"><a href="/de" class="nav__link">Deutsch</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="navbar__start">
+        <a href="#" data-toggle="collapse" data-target="#collapse-container-nav" class="navbar__burger navbar__burger--open"></a>
+        <a href="#" data-toggle="collapse" data-target="#collapse-container-nav" class="navbar__burger navbar__burger--close"></a>
+      </div>
+      <div class="navbar__end">
+        <a href="#">
+          <img src="{{ "/assets/images/logo.svg" | prepend: site.baseurl }}" class="navbar__logo">
+        </a>
+      </div>
+    </div>
+  </header>
+</div>

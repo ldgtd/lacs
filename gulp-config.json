@@ -1,0 +1,12 @@
+{
+  "src": {
+    "javascript": "_javascripts/**/*.js",
+    "webpack": "./_javascripts/main.js"
+  },
+  "dest": {
+    "webpack": {
+      "path": "assets/javascripts",
+      "filename": "bundle.js"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<div class="herobanner">
+  <picture>
+    <source srcset="{{ "/assets/images/herobanner@2.jpg" | prepend: site.baseurl }}" media="(min-width: 700px)" class="herobanner__img">
+    <img src="{{ "/assets/images/herobanner.jpg" | prepend: site.baseurl }}" class="herobanner__img">
+  </picture>
+
+  <div class="herobanner__title text-center">
+    <h1 class="mrgv0">{{ t.herobanner.title }}</h1>
+  </div>
+</div>

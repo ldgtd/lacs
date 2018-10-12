@@ -1,0 +1,11 @@
+# Site settings
+title: Lacs
+# the subpath baseurl must be to be publish & working in production under aquaboat.ch
+# if you want to preview the website under username.github.io/aquaboat, you have to change baseurl to /aquaboat
+baseurl: "/lacs"
+url: "" # the base hostname & protocol for your site
+email: "info@lacs.ch"
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulp-config.json, Gulpfile.js, package.json, webpack-config.js, package-lock.json, README.md]

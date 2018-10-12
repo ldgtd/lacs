@@ -1,0 +1,200 @@
+/*----------------------------------------*\
+  TYPOGRAPHY
+\*----------------------------------------*/
+
+html {
+  // Those are recommended in Neutraface README
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: common-ligatures;
+  font-kerning: normal;
+  // stylelint-disable property-no-vendor-prefix
+  -moz-font-feature-settings: 'kern', 'liga', 'clig', 'calt', 'lnum';
+  -ms-font-feature-settings: 'kern', 'liga', 'clig', 'alt', 'lnum';
+  -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt', 'lnum';
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt', 'lnum';
+  font-variant-numeric: lining-nums;
+}
+
+button {
+  // For whatever reason this isn’t inherited by default in Firefox
+  font-variant-numeric: inherit;
+}
+
+
+/**
+ * Headings
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+%h1,
+%h2,
+%h3,
+%h4,
+%h5,
+%h6 {
+  display: block;
+  margin-bottom: 20px;
+
+  color: $brand-color;
+  font-family: $font-family-default;
+  line-height: 1;
+}
+
+h1,
+.h1,
+%h1 {
+  font-size: rem(50px);
+}
+
+h2,
+.h2,
+%h2 {
+  font-size: rem(25px);
+}
+
+h3,
+.h3,
+%h3 {
+  font-size: rem(20px);
+}
+
+h4,
+.h4,
+%h4 {
+  font-size: rem(16px);
+}
+
+h5,
+.h5,
+%h5 {
+  font-size: rem(15px);
+}
+
+h6,
+.h6,
+%h6 {
+  font-size: rem(14px);
+}
+
+@include media('sm') {
+  h1,
+  .h1,
+  %h1 {
+    font-size: rem(70px);
+  }
+
+  h2,
+  .h2,
+  %h2 {
+    font-size: rem(30px);
+  }
+
+  h3,
+  .h3,
+  %h3 {
+    font-size: rem(20px);
+  }
+
+  // Redefine those again with the same value
+  // This allows elements like <h1 class="h3">
+  // To have the right size at every breakpoint
+  h4,
+  .h4,
+  %h4 {
+    font-size: rem(16px);
+  }
+
+  h5,
+  .h5,
+  %h5 {
+    font-size: rem(15px);
+  }
+
+  h6,
+  .h6,
+  %h6 {
+    font-size: rem(14px);
+  }
+}
+
+@include media('lg') {
+  h1,
+  .h1,
+  %h1 {
+    font-size: rem(80px);
+  }
+
+  h2,
+  .h2,
+  %h2 {
+    font-size: rem(40px);
+  }
+
+  h3,
+  .h3,
+  %h3 {
+    font-size: rem(36px);
+  }
+
+  h4,
+  .h4,
+  %h4 {
+    font-size: rem(20px);
+  }
+
+  h5,
+  .h5,
+  %h5 {
+    font-size: rem(18px);
+  }
+
+  h6,
+  .h6,
+  %h6 {
+    font-size: rem(16px);
+  }
+}
+
+/**
+ * Links
+ */
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $brand-color-light;
+  }
+}
+
+.link-negative {
+  color: white;
+
+  &:hover,
+  &:focus {
+    color: white;
+    opacity: .7;
+  }
+}
+
+
+/**
+ * Misc
+ */
+
+address {
+  font-style: normal;
+}

@@ -4,11 +4,12 @@
 
 .footer {
   width: 100%;
-  height: 60px;
   background-color: $alt-color-lighter;
 }
 
   .footer__container {
-    display: flex;
-    justify-content: space-between;
+    @include media('sm') {
+      display: flex;
+      justify-content: space-between;
+    }
   }

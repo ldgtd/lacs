@@ -5,10 +5,10 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: _data
-  label: Translation
+  path: ''
+  label: Content
   create: documents
-  match: "**/*"
+  match: "*.yml"
 - type: jekyll-posts
   label: Posts
   create: all

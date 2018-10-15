@@ -26,10 +26,10 @@ fr:
       ille, consentit.
   contact:
     title: Contact
-    city1: Lausanne
-    address1: Adresse de Lausanne 31
-    email1: lausanne@lacs-swiss.ch
-    phone1: 123456789
+    city1: Le Bouveret
+    address1: Route des Iles 44
+    email1: info@lacs-swiss.ch
+    phone1: "+41 (0)21 552 07 00"
     map1: https://www.google.com/maps/place/Lausanne/@46.5284586,6.5824552,12z/data=!3m1!4b1!4m5!3m4!1s0x478c293ecd89a7e5:0xeb173fc9cae2ee5e!8m2!3d46.5196535!4d6.6322734
     city2: Genève
     address2: Adresse de Genève 31

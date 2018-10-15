@@ -5,10 +5,10 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: _data
+  path: ''
   label: Content
   create: documents
-  match: "*.yml"
+  match: "**/*.yml"
 upload_dir: forestryio/images
 public_path: "{{ site.baseurl }}/forestryio/images"
 front_matter_path: "/forestryio/images"

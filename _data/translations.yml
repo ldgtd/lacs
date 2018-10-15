@@ -5,16 +5,25 @@ fr:
     services: Services
     contact: Contact
   herobanner:
-    title: Lorem ipsum title
+    title: Lorem ipsum test
   about:
     title: A propos
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero, inquit ille, consentit. An dolor longissimus quisque miserrimus, voluptatem non optabiliorem diuturnitas facit? Ait enim se, si uratur, Quam hoc suave! dicturum. An ea, quae per vinitorem antea consequebatur, per se ipsa curabit? Ergo hoc quidem apparet, nos ad agendum esse natos. Nondum autem explanatum satis, erat, quid maxime natura vellet.
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero,
+      inquit ille, consentit. An dolor longissimus quisque miserrimus, voluptatem
+      non optabiliorem diuturnitas facit? Ait enim se, si uratur, Quam hoc suave!
+      dicturum. An ea, quae per vinitorem antea consequebatur, per se ipsa curabit?
+      Ergo hoc quidem apparet, nos ad agendum esse natos. Nondum autem explanatum
+      satis, erat, quid maxime natura vellet.
   services:
     title: Services
-    access: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero, inquit ille, consentit.
-    lock: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero, inquit ille, consentit.
-    key: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero, inquit ille, consentit.
-    door: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero, inquit ille, consentit.
+    access: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero,
+      inquit ille, consentit.
+    lock: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero, inquit
+      ille, consentit.
+    key: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero, inquit
+      ille, consentit.
+    door: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero, inquit
+      ille, consentit.
   contact:
     title: Contact
     city1: Lausanne

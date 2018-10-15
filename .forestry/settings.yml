@@ -8,13 +8,7 @@ sections:
   path: ''
   label: Content
   create: documents
-  match: "*.yml"
-- type: jekyll-posts
-  label: Posts
-  create: all
-- type: jekyll-pages
-  label: Pages
-  create: all
+  match: _data/*.yml
 upload_dir: forestryio/images
 public_path: "{{ site.baseurl }}/forestryio/images"
 front_matter_path: "/forestryio/images"

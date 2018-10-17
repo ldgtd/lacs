@@ -8,16 +8,12 @@ fr:
     title: Bienvenue chez LACS SA
   about:
     title: A propos
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero,
-      inquit ille, consentit. An dolor longissimus quisque miserrimus, voluptatem
-      non optabiliorem diuturnitas facit? Ait enim se, si uratur, Quam hoc suave!
-      dicturum. An ea, quae per vinitorem antea consequebatur, per se ipsa curabit?
-      Ergo hoc quidem apparet, nos ad agendum esse natos. Nondum autem explanatum
-      satis, erat, quid maxime natura vellet.
+    description: |2-
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero, inquit ille, consentit. An dolor longissimus quisque miserrimus, voluptatem non optabiliorem diuturnitas facit? Ait enim se, si uratur, Quam hoc suave! dicturum. An ea, quae per vinitorem antea consequebatur, per se ipsa curabit? Ergo hoc quidem apparet, nos ad agendum esse natos. Nondum autem explanatum satis, erat, quid maxime natura vellet.
   services:
     title: Services
-    access: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero,
-      inquit ille, consentit.
+    access: Spécilisé dans les contrôle d'accès mécanique et électronique
     lock: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero, inquit
       ille, consentit.
     key: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero, inquit
@@ -26,14 +22,14 @@ fr:
       ille, consentit.
   contact:
     title: Contact
-    city1: Le Bouveret
+    city1: 1897 Le Bouveret
     address1: Route des Iles 44
     email1: info@lacs-swiss.ch
     phone1: "+41 (0)21 552 07 00"
-    map1: https://www.google.com/maps/place/Lausanne/@46.5284586,6.5824552,12z/data=!3m1!4b1!4m5!3m4!1s0x478c293ecd89a7e5:0xeb173fc9cae2ee5e!8m2!3d46.5196535!4d6.6322734
-    city2: Genève
-    address2: Adresse de Genève 31
-    email2: geneve@lacs-swiss.ch
-    phone2: 123456789
-    map2: https://www.google.com/maps/place/Geneva/@46.2050836,6.1090691,13z/data=!3m1!4b1!4m5!3m4!1s0x478c650693d0e2eb:0xa0b695357b0bbc39!8m2!3d46.2043907!4d6.1431577
+    map1: https://www.google.ch/maps/place/Route+des+Iles+44,+1897+Port-Valais,+Suisse/@46.3804848,6.8608954,17z/data=!4m5!3m4!1s0x478e9953aa58b87d:0x7b154bc911b5244e!8m2!3d46.3805699!4d6.8623331
+    city2: 1002 Genève
+    address2: Rue Sismondi 16
+    email2: info@lacs-swiss.ch
+    phone2: "+41 (0)21 552 07 00"
+    map2: https://www.google.ch/maps/place/Rue+Sismondi+16,+1201+Genève,+Suisse/@46.2103718,6.1444845,17z/data=!3m1!4b1!4m5!3m4!1s0x478c652694a79995:0xb0e9bc77c54a8590!8m2!3d46.2103681!4d6.1466732
     map-button: Voir sur la carte
